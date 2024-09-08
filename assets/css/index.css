@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    height: 70px;
+}
+p{
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+.inner-div{
+    display: flex;
+}
+
+#bg-img{
+    background-image: url("../images/top-10-companies-in-camping-equipment.png");
+    min-height: calc(100vh - 70px);
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire section */
+    width: 100%;
+}
+
+section ul{
+    list-style-type: disc;
+    margin: 10px;
+    padding: 10px;
+}
