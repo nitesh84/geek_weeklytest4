@@ -1,33 +1,89 @@
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+body{
+    /* font-family: poppins; */
+}
+
+header{
+    background-color: #333;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
 nav{
     display: flex;
-    flex-direction: row;
-    background-color: darkgray;
-    height: 70px;
-}
-p{
+    height: 100%;
+    max-width: 1200px;
+    justify-content:space-between;
+    color: white;
+    align-items: center;
+    padding: 0 10px;
+    /* margin: 0 auto; */
+    gap: 40vw;
     width: 100%;
+
 }
 
 nav ul {
     list-style-type: none;
+    display: flex;
+    width: 40vw;
+    gap: 20px;
+    align-items: center;
+
 }
 .inner-div{
     display: flex;
 }
 
 #bg-img{
-    background-image: url("../images/top-10-companies-in-camping-equipment.png");
-    min-height: calc(100vh - 70px);
+    background-image: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    height:100vh ;
     background-repeat: no-repeat;
     background-size: cover; /* Cover the entire section */
     width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    color: #fff;
 }
 
+.contain-text{
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#bg-img h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#bg-img p{
+    font-size: 20px;
+}
+
+#bg-img button{
+    width: 210px;
+    height: 45px;
+    color: black;
+    background-color: white;
+    border-radius:5%;
+    border: 0px;
+    margin: 50px 10px;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
 section ul{
     list-style-type: disc;
     margin: 10px;
